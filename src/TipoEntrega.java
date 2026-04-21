@@ -1,0 +1,9 @@
+public enum TipoEntrega {
+	RETIRADA_LOCAL,
+	UBER,
+	UBER_EAT,
+	RAPPI,
+	NOVENTA_NOVE,
+	INDRIVER,
+	LOGGI
+}

@@ -1,0 +1,15 @@
+public enum CategoriaProduto {
+	NENHUMA,
+	BEBIDAS,
+	CARNES,
+	FRIOS,
+	FRUTAS,
+	HIGIENE,
+	LEGUMES,
+	LIMPEZA,
+	MERCERARIA,
+	PADARIA,
+	PET,
+	UTILIDADES,
+	OUTRO
+}

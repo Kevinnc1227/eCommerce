@@ -1,0 +1,8 @@
+public enum EstadoCivil {
+	SOLTEIRO,
+	CASADO,
+	VIUVO,
+	NAO_SEI_RESPONDER,
+	PREFIRO_NAO_RESPODER,
+	OUTRO
+}

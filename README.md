@@ -66,7 +66,7 @@ git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 ---
    
 ## 🎯 Objetivo do Projeto
-- Demonstrar domínio em:
+-Demonstrar domínio em:
 - Modelagem orientada a objetos
 - Estruturação de sistemas reais
 - Regras de negócio

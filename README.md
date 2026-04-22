@@ -80,7 +80,7 @@ O principal objetivo deste projeto é demonstrar a aplicação prática de **Pro
 git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 2. Importe na sua IDE favorita (IntelliJ, Eclipse, VS Code).
 3. Localize a classe Main e execute.
-4. "Beleza, chefe, não faz merda demais agora" — use com sabedoria.
+4. Execute a aplicação
    
 ## 🎯 Objetivo do Projeto
 Demonstrar domínio em:

@@ -66,12 +66,12 @@ git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 ---
    
 ## 🎯 Objetivo do Projeto
-Demonstrar domínio em:
-Modelagem orientada a objetos
-Estruturação de sistemas reais
-Regras de negócio
-Organização de código Java
-Boas práticas de desenvolvimento
+- Demonstrar domínio em:
+- Modelagem orientada a objetos
+- Estruturação de sistemas reais
+- Regras de negócio
+- Organização de código Java
+- Boas práticas de desenvolvimento
 
 ## 📌 Observação
 Projeto desenvolvido para fins acadêmicos e aprimoramento técnico, simulando cenários reais de mercado.

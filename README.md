@@ -32,35 +32,16 @@ O principal objetivo deste projeto é demonstrar a aplicação prática de **Pro
 
 ---
 
-## 📦 Módulos do Sistema
+## 📦 Funcionalidades Implementadas
 
-### 👤 Gestão de Pessoas
-- Cadastro de pessoas físicas e jurídicas
-- Endereços e contatos
-- Informações complementares
-
-### 📦 Controle de Estoque
-- Entrada de produtos
-- Saída de produtos
-- Transferências internas
-- Devoluções
-- Organização por categorias
-
-### 🛒 Pedidos e Vendas
-- Cadastro de pedidos
-- Associação de clientes
-- Cálculo de valores
-- Controle de status
-
-### 💳 Sistema de Pagamentos
-- Cartão de crédito
-- Cartão de débito
-- Cheque
-- Voucher / Vale
-
-### 🚚 Logística
-- Simulação de entregas
-- Integração conceitual com transportadoras e apps de entrega
+- Cadastro de pessoas físicas e jurídicas  
+- Validação de CPF e CNPJ  
+- Controle de produtos e estoque  
+- Registro de movimentações de entrada e saída  
+- Processamento de pedidos  
+- Simulação de formas de pagamento  
+- Tratamento de exceções personalizadas  
+- Aplicação prática de conceitos de Programação Orientada a Objetos
 
 ---
 

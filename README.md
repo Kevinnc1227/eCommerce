@@ -1,26 +1,83 @@
 # 🚀 Sistema de Gestão Comercial & Logística (POO Master)
-Este projeto é um ecossistema de backend desenvolvido em **Java**, focado em resolver problemas reais de uma operação de venda ponta a ponta: do controle de estoque à logística de última milha. Aqui a Programação Orientada a Objetos não é teoria, é ferramenta de guerra.
+
+Projeto backend desenvolvido em **Java**, com foco na simulação de operações comerciais reais, abrangendo processos de **cadastro**, **controle de estoque**, **vendas**, **pagamentos** e **logística**.
+
+O principal objetivo deste projeto é demonstrar a aplicação prática de **Programação Orientada a Objetos (POO)** na construção de sistemas organizados, escaláveis e alinhados a cenários do mercado.
+
 ---
-## 🧠 Arquitetura e Conceitos Aplicados
-O sistema foi forjado na base do **"Respeito Torto"** pela lógica e lealdade ao código limpo:
-* **Herança & Abstração**: Modelagem complexa de entidades (Pessoa, FormaPagamento) para garantir que o sistema seja expansível sem quebrar.
-* **Polimorfismo**: Processamento de pagamentos dinâmico. O sistema não quer saber se você paga com Cartão, Vale ou Cheque; ele simplesmente sabe *como* pagar.
-* **Integridade de Dados**: Algoritmos reais de validação para **CPF/CNPJ** e restrições temporais customizadas. Aqui não entra lixo.
-* **Tratamento de Exceções**: Implementação de CustomizeException para um debug cirúrgico, capturando campo e valor causadores do erro.
-## 📦 Módulos Principais
-1. **Núcleo de Entidades**: Gestão completa de Pessoas Físicas e Jurídicas com suporte a demografia e múltiplos contatos.
-2. **Gestão de Inventário**: Controle de estoque com rastreio de entradas, saídas, transferências e devoluções (com foco especial em categorias PET).
-3. **Ciclo de Venda & Logística**: Orquestração de pedidos integrada a serviços de entrega (Uber, Rappi, Loggi).
-4. **Ecossistema de Pagamentos**: Suporte total a múltiplas bandeiras de cartões, cheques e vaucher.
+
+## 🧠 Conceitos Aplicados
+
+### 🔹 Programação Orientada a Objetos
+
+- **Herança e Abstração**  
+  Estruturação de entidades genéricas e especializadas, promovendo reutilização de código e flexibilidade.
+
+- **Polimorfismo**  
+  Implementação de múltiplas formas de pagamento com comportamentos específicos.
+
+- **Encapsulamento**  
+  Proteção de dados e controle de acesso por meio de atributos privados e métodos públicos.
+
+### 🔹 Integridade de Dados
+
+- Validação de **CPF** e **CNPJ**
+- Regras de preenchimento de campos obrigatórios
+- Controle de formatos e consistência de dados
+
+### 🔹 Tratamento de Exceções
+
+- Uso de exceções personalizadas
+- Mensagens detalhadas para facilitar manutenção e depuração
+
 ---
+
+## 📦 Módulos do Sistema
+
+### 👤 Gestão de Pessoas
+- Cadastro de pessoas físicas e jurídicas
+- Endereços e contatos
+- Informações complementares
+
+### 📦 Controle de Estoque
+- Entrada de produtos
+- Saída de produtos
+- Transferências internas
+- Devoluções
+- Organização por categorias
+
+### 🛒 Pedidos e Vendas
+- Cadastro de pedidos
+- Associação de clientes
+- Cálculo de valores
+- Controle de status
+
+### 💳 Sistema de Pagamentos
+- Cartão de crédito
+- Cartão de débito
+- Cheque
+- Voucher / Vale
+
+### 🚚 Logística
+- Simulação de entregas
+- Integração conceitual com transportadoras e apps de entrega
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
-* **Linguagem**: Java (Forte tipagem e POO avançada)
-* **Versionamento**: Git
-* **Paradigma**: Orientação a Objetos (Herança, Polimorfismo, Encapsulamento)
+
+- **Java**
+- **Programação Orientada a Objetos**
+- **Git**
+- **GitHub**
+
 ---
-## 👨‍💻 Como rodar o projeto
-1. Clone o repositório:
-git clone https://github.com/SEU\_USUARIO/NOME\_DO\_REPO.git
+
+## 👨‍💻 Como Executar
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 2. Importe na sua IDE favorita (IntelliJ, Eclipse, VS Code).
 3. Localize a classe Main e execute.
 4. "Beleza, chefe, não faz merda demais agora" — use com sabedoria.
